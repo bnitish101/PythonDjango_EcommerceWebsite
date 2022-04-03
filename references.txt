@@ -1,2 +1,4 @@
 poytho -m env_ecommerce
 pip install django
+
+python manage.py runserver
