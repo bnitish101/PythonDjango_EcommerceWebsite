@@ -15,3 +15,8 @@ bootstrap 5.1 integration
     
     - create navbar
         - https://getbootstrap.com/docs/5.1/components/navbar/
+
+Page design
+    - store
+    - cart
+    - checkout
