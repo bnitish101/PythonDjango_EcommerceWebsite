@@ -2,6 +2,44 @@
 {% load static %}
 
 {% block content %}
-    <h1>Store</h1>
-    <img src="{% static 'images/cart.png' %}" alt="">
+    <div class="row">
+        <!-- snippet
+        .col-lg-4*3>img.thumbnail+.box-elemnet.product>h6>strong+hr+bubton.btn.btn-outline-secondary.add-btn+a.btn.btn-outline-success -->
+        <div class="col-lg-4">
+            <img src="{% static 'images/placeholder.png'%}" alt="" class="thumbnail">
+            <div class="box-elemnet product">
+                <h6>
+                    <strong>Product</strong>
+                    <hr>
+                    <bubton class="btn btn-outline-secondary add-btn">Add to cart</bubton>
+                    <a href="" class="btn btn-outline-success">View</a>
+                    <h4 style="display: inline-block;">$20</h4>
+                </h6>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img src="{% static 'images/placeholder.png'%}" alt="" class="thumbnail">
+            <div class="box-elemnet product">
+                <h6>
+                    <strong>Product</strong>
+                    <hr>
+                    <bubton class="btn btn-outline-secondary add-btn">Add to cart</bubton>
+                    <a href="" class="btn btn-outline-success">View</a>
+                    <h4 style="display: inline-block;">$20</h4>
+                </h6>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img src="{% static 'images/placeholder.png'%}" alt="" class="thumbnail">
+            <div class="box-elemnet product">
+                <h6>
+                    <strong>Product</strong>
+                    <hr>
+                    <bubton class="btn btn-outline-secondary add-btn">Add to cart</bubton>
+                    <a href="" class="btn btn-outline-success">View</a>
+                    <h4 style="display: inline-block;">$20</h4>
+                </h6>
+            </div>
+        </div>
+    </div>
 {% endblock content %}
